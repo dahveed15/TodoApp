@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import configureStore from './store/store';
 // import { fetchTodos } from './util/todo_list_api_util';
-// import { receiveAllTodos } from './actions/todo_actions';
+// import { fetchTodos } from './actions/todo_actions';
 
 document.addEventListener('DOMContentLoaded', () => {
   let store = configureStore();
